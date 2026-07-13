@@ -1,5 +1,3 @@
-# this is my first program im learning
-# hfwuh
+# this is my first python program im learning
 
-option = input("Enter something: ")
-print(repr(option))
+print("hello world")
