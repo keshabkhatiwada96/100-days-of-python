@@ -6,7 +6,7 @@ y=input("enter value of y; ")
 
 
 
-print(int(x) + int(y))
+print( int(x) + int(y))
 print(int(x) -int(y))
 print(int(x) *int(y))
 print(int(x) /int(y))

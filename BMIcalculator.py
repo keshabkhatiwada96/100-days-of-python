@@ -1,4 +1,4 @@
-W= int(input("enter your weight (in kg): " ))
+W= float(input("enter your weight (in kg): " ))
 H= float(input("enter your Height (in Meter Square): " ))
 
 BMI= W/H
