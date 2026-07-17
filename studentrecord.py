@@ -1,8 +1,10 @@
 student = {}
 while True:
     print("\n=== Student Management System ===")
+    
     ...
     choice = input("1 to 8 : ")
+
 
     # Add student section
     if choice == "1":
