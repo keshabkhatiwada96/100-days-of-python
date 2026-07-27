@@ -1,1 +1,1 @@
-print("hey" ,6 ,7 ,8 )
+hour = datetime.now().hour
