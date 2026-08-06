@@ -1,2 +1,1 @@
-r.append(7)    #the append is used to add the element in list
-# print(r,"append")
+print(f"|{name:>10}|")   # Right align
