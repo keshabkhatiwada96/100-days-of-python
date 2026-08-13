@@ -10,3 +10,4 @@ except:                      #if error occur the except block will be executed
     print("Invalid Input")
 print("Important lines of code ")
 print("End of Program")
+
