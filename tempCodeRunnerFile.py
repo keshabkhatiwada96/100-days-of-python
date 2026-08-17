@@ -1,3 +1,11 @@
-for i in range(6):
-#     if i == 4:
-#         break    # If the loop is stopped using break, the else block will not execute.
+file = open("example2.txt","w")    #write file
+
+# file.write("hello keshab , im good wbu")
+# file.close()
+
+
+
+# file = open("example2.txt","a")    #append file
+
+# file.write("\nhello keshab \nhey im good \n wbu?? ")
+# file.close()
