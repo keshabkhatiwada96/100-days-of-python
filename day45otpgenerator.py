@@ -6,15 +6,14 @@
 
 import random
 
-input("press ENTER to generate a random OTP.. ")
 OTP = random.randint(1000,9999)
-print("\nYour OTP:\n",OTP)
+print("Your OTP:",OTP)
 
 user_otp=int(input("enter your OTP: "))
 if user_otp== OTP:
  print("Login Sucessful")
- print("""\
- "🎉 **Congratulations!** 🎉
+ print("""
+  **Congratulations!** 
 
 You have successfully logged in.
 
