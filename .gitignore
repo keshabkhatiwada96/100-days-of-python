@@ -1,7 +1,2 @@
 .env
 __pycache__/
-example.txt
-example2.txt
-.venv
-requirements.txt
-lyrics.py
