@@ -1,1 +1,1 @@
-np.array
+print(df.head())
