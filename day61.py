@@ -4,7 +4,6 @@ from sklearn.linear_model import LinearRegression
 # training data
 study_hours = [[1],[2],[3],[4],[5]]
 marks = [40,50,60,70,80]
-
 print("study hours: ", study_hours)
 print("marks: ",marks)
 
