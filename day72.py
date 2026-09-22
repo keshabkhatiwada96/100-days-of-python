@@ -12,13 +12,18 @@ X_train,X_test,y_train,y_test = train_test_split(
 )
 
 overfit_model = DecisionTreeRegressor(max_depth=None, random_state=42)
-
-
 overfit_model.fit(X_train,y_train)
 
-
+print("+++++++++ovefit model++++++++++")
 train_score = overfit_model.score(X_train, y_train)
 test_score = overfit_model.score(X_test, y_test)
+print("training score =", train_score)
+print("testing score =", test_score)
 
-print("Training score =", train_score)
-print("Testing score =", test_score)
+print("+++++++++underfit model++++++++++")
+underfit_model=DecisionTreeRegressor(max_depth=1)
+underfit_model.fit(X_train,y_train)
+train_score = underfit_model.score(X_train,y_train)
+test_score = underfit_model.score(X_test,y_test)
+print("training score =", train_score)
+print("testing score =", test_score)
